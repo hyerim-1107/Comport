@@ -3,7 +3,7 @@ import pandas as pd
 from io import BytesIO
 import os
 
-st.title("엑셀 중복 제거 애플리케이션")
+st.title("엑셀 중복 제거")
 
 uploaded_file = st.file_uploader("엑셀 파일을 선택하세요 (.xlsx)", type=["xlsx"])
 if uploaded_file is not None:
